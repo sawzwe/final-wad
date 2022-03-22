@@ -15,7 +15,7 @@ Later, you can click save button to save the button to save your collection to t
 
 To check quotations history, you can navigate to quotation management in the to Nav Bar. Here you will see all the quotations made by the user with ascending ordered date. 
 
-You can add more quotaions by clicking "add more quotation" which will redirect you to the Quotation page. Before adding more quotations, make sure to clear since there will be previous quotations.
+You can add more quotaions by clicking "add more quotation" which will redirect you to the Quotation page. Before adding more quotations, make sure to clear the table since there will be previous quotations.
 
 Lastly, the product list shown in the Quotation page can be modified in the product page in the nav bar.
 
