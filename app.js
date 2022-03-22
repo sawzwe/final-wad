@@ -35,10 +35,10 @@ app.use('/products', productsRouter);
 app.use('/customers',customerRouter);
 app.use('/quotations',quotationRouter); 
 
-// app.use(express.static(path.join(__dirname, "public")));
-// app.get("/*", function (req, res) {
-//   res.sendFile(path.join(__dirname, "public", "index.html"));
-// });
+app.use(express.static(path.join(__dirname, "public")));
+app.get("/*", function (req, res) {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
 
 // app.use(express.static(path.join(__dirname, "public","build")));
 // app.get("/", function (req, res) {
